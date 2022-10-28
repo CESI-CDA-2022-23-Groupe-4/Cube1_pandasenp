@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:8889
--- Généré le : ven. 28 oct. 2022 à 12:39
+-- Généré le : ven. 28 oct. 2022 à 13:47
 -- Version du serveur :  5.7.32
 -- Version de PHP : 8.0.3
 
@@ -81,7 +81,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `last_name`, `first_name`, `email`, `pwd`, `blocked`, `admin`) VALUES
 (1, 'yannmtrn', 'Morlon', 'Yann', 'yann25m@gmail.com', '$2y$10$4nGUICx1JbD5aYcnChEJ..WW7En1v61PAA61Hf1koMtZpjU8MeCu.', 0, 0),
-(2, '$2y$10$ZkXdD4BfQMh2b03AsnvG6uGQlgq08iu7HG0mHOU3W8ufNB3IN01h2', 'admin', 'admin', 'admin@admin.com', '$2y$10$ZkXdD4BfQMh2b03AsnvG6uGQlgq08iu7HG0mHOU3W8ufNB3IN01h2', 0, 1);
+(2, 'admin', 'admin', 'admin', 'admin@admin.com', '$2y$10$ZkXdD4BfQMh2b03AsnvG6uGQlgq08iu7HG0mHOU3W8ufNB3IN01h2', 0, 1);
 
 --
 -- Index pour les tables déchargées
